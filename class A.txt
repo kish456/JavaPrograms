@@ -1,0 +1,21 @@
+class A
+{
+int x = 10;
+void show()
+{
+System.out.println("classA");
+}
+}
+class B extends A
+{
+int y = 12;
+void print()
+{
+System.out.println("classB");
+}
+}
+public Static void main(String [] args){
+A obj = new A();
+System.out.println(obj.x);
+System.out.println(obj.y);
+}

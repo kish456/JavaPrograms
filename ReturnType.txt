@@ -1,0 +1,12 @@
+
+class returnType{
+void add(inta,intb)
+{
+float c=a+b;
+return c;
+}
+public static void main(String[] args){
+float d = new returnType.add(12,28);
+System.out.println(d);
+}
+}

@@ -1,0 +1,11 @@
+class Demo2{
+void add(inta,intb)
+{
+float c=a+b;
+return c;
+}
+public static void main(String[] args){
+float d = new Demo2.add(12,28);
+System.out.println(d);
+}
+}

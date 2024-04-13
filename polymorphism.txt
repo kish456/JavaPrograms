@@ -1,0 +1,20 @@
+class polymorphism{
+void cir(int r)
+{
+float area=(float)3.14*r*r;
+System.out.println("the area of circle is:"+vol);
+}
+void tri(int b,int h);
+{
+float vol =(float)0.5*b*h;
+System.out.println("the volume of circle is :"+vol);
+}
+void sqr{(int s)
+{
+int area=s*s;
+System.out.println("the volume of square is:"+vol);
+}
+public static void main(String[] args){
+polymorphism shape = new polymorphism():
+shape.cir(2);
+shape.tri(b:23,

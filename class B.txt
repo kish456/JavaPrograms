@@ -1,0 +1,19 @@
+class B
+{
+static void kishore(){
+System.out.println("welcome");
+
+}
+}
+class C extends B
+{
+static void Abhi(){
+system.out.println("how are you");
+}
+}
+public static void main(String[] args)
+{
+C obj = new C();
+obj.kishore();
+}
+}

@@ -1,0 +1,17 @@
+class A{
+A()
+{
+System.out.println("iam fine");
+}
+}
+class Main extends A{
+Main()
+{
+System.out.println("main class");
+}
+public static void main(String[] args )
+{
+new Main();
+}
+
+}
